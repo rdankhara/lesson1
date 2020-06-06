@@ -14,9 +14,15 @@ public class Main {
         Date today = new Date();
         System.out.println(birthDate);
         System.out.println(today);
+        login("rdankhara", "password");
 
 //        ChronoUnit.DAYS.between(birthDate, birthDate);
 //
         //birthDate.until(endDate, DAYS);
+    }
+
+    public static void login(String username, String password) {
+        System.out.println(username);
+        System.out.println(password);
     }
 }
